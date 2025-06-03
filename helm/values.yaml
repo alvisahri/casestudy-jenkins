@@ -1,4 +1,4 @@
 image:
-  repository: azeshion21/demo-app
+  repository: bilun03/demo-app
   tag: latest
 replicaCount: 1
