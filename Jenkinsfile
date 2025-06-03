@@ -2,12 +2,10 @@ pipeline {
   agent any
 
   environment {
-    IMAGE = "bilun03/demo-app"
+    DOCKER_IMAGE = "bilun03/demo-app"
     TAG = "latest"
-    DOCKER_CRED = "docker-hub"
-    KUBECONFIG_CRED = "kubeconfig-dev"
-    NAMESPACE = "default"
-    HELM_RELEASE = "casestudy-jenkins1"
+    DOCKER_CRED_ID = "docker-hub"
+
   }
 
   stages {
